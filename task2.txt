@@ -1,0 +1,8 @@
+#include <iostream>
+using namespace std;
+main()
+{
+float dollar;
+cout<<"enter dollar"<<endl;
+cin>> "dollar";
+int rupees;

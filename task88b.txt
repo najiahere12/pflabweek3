@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int value;
+int mode1;
+int div1;
+int mode2;
+int div2;
+int mode3;
+int div3;
+int sum;
+cout<<"enter 4-digit value: ";
+cin>>value;
+mode1 = value%10;
+div1 = value/10;
+}
+

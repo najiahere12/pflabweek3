@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+main()
+{
+int values;
+int sum;
+cout<<"enter value 1: ";
+cin>>values;
+cout<<"enter value 2: ";
+cin>>values;
+cout<<"enter value 3: ";
+cin>>values;
+cout<<"enter value 4: ";
+cin>>values;
+cout<<"enter value 5: ";
+cin>>values;
+}

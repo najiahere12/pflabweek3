@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int daystolooseweight1kg=15;
+int weight=12;
+int result;
+
+int result;
+cout<<"enter weight you want to loose: ";
+cinn>>weight;
+result = weight*daystolooseweight1kg;
+cout<<result;
+}
+
+

@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+main()
+{
+int matric;
+int intermediate;
+int ecat;
+float matp;
+float ecatp;
+float interp;
+float aggregate;
+
+cout<<"enter matric score: ";
+cin>> matric;
+cout<<"enter intermediate score: ";
+cin>> intermediate;
+cout<<"enter ecat score: ";
+cin>>ecat;
+matp = matric*10/1100;
+interp = intermediate*40/550;
+ecatp = ecat*50/400;
+agrregate = matp+interp+ecatp;
+cout<<aggregate is: ";
+cout<<aggreagte;
+
+
+
+
+
+
+
+
+
+
+
+
+
+} 

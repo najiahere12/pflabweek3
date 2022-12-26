@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+main()
+{
+float onepound=0.45;
+float pound;
+float result;
+
+cout<<"enter pound: ";
+cin>> pound;
+result=onepound*result;
+cout<<"in kilograms: ";
+}

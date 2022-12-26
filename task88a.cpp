@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+float veg;
+float fruit;
+float kgveg;
+float kgfruit;
+float fruitcost;
+float vegetablecost;
+float totalcost;
+float totalcosteuro;
+float euro=1.94;
+cout<<"vegetable price per kilogram: ";
+cin>>veg;
+cout<<"fruits price per kilogram: ";
+cin>>fruit;
+cout<<"total kilograms of vegetable: ";
+cin>>kgveg;
+cout<<"total kilograms of fruit: ";
+cin>>kgfruit;
+cout<<"total fruit cost: ";
+fruitcost = fruit*kgfruit;
+cout<<fruitcost <<endl;
+cout<<"total vegetable cost: ";
+vegetablecost = veg*kgveg;
+cout<<vegetablecost <<endl;
+
+totalcost = vegetablecost+fruitcost;
+cout<<"total cost in euro's: ";
+totalcosteuro = totalcost/euro;
+cout<<totalcosteuro;
+
+
+
+
+}

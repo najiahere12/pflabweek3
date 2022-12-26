@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+main()
+{
+double mb;
+double kb=1024;
+double byte=1024;
+double bit=8;
+double result;
+cout<<"enter bits";
+cin>> bit;
+result = kb*byte*bit;
+cout<<"the bits are: ";
+cout<<result;
+}
+
